@@ -40,6 +40,12 @@ For the final project, I gave a 15-minute presentation on the paper "Distilling 
 
 I achieved a B+ in this course, which provided a comprehensive foundation in modern NLP techniques and architectures. The course culminated in a final exam covering topics from word embeddings to advanced concepts like RLHF and model alignment among others.
 
-## Social Computing Homework 1 - Reddit Data Analysis
+# Social Computing 
+
+## Homework 1 - Reddit Data Analysis
 
 This notebook implements a Reddit data collection and analysis system using the PRAW API, featuring a scraper that collects posts and comments based on user queries, and an analyzer that computes statistical metrics including mean scores, variance, and correlation between post and comment scores. The implementation includes data visualization using seaborn and matplotlib to plot score distributions and correlations, with additional functionality to identify top and bottom performing posts based on their scores.
+
+## Homework 2 - Netowork analysis of academic paper citations
+
+This notebook implements a network analysis system using NetworkX to analyze academic paper citation networks, featuring weak and strong tie analysis through degree centrality calculations and visualization of network resilience. The implementation includes centrality analysis using degree, closeness, and betweenness metrics with Pearson correlation calculations, along with network visualization tools to demonstrate the impact of removing different types of ties on network structure.
