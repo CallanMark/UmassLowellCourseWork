@@ -19,3 +19,7 @@ This notebook implements a fully-connected neural network classifier for text cl
 ## Homework 5 - Transformer Language Model
 
 This notebook implements a transformer-based language model from scratch using PyTorch, starting with the implementation of multi-head self-attention mechanisms and building up to a complete transformer architecture. The implementation includes training on the Tiny Shakespeare dataset, demonstrating character-level language modeling with techniques like causal masking, positional encoding, and efficient batching. The code explores hyperparameter optimization through wandb integration, model evaluation using perplexity metrics, and text generation capabilities.
+
+## Homework 6 - Transformer Machine Translation Model
+
+This notebook implements a transformer-based machine translation model from scratch using PyTorch, building upon the transformer architecture from HW5 to create an encoder-decoder model for English-German translation. The implementation includes training custom tokenizers, implementing cross-attention mechanisms, and handling sequence-to-sequence tasks with proper padding and masking. The model was trained on the WMT-14 English-German dataset using CS department GPU servers, with hyperparameter optimization through wandb integration and evaluation using BLEU scores.
