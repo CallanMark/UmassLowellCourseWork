@@ -53,3 +53,7 @@ This notebook implements a network analysis system using NetworkX to analyze aca
 ## Homework 6 - Multiclass Text Classification
 
 This notebook implements a multiclass text classifier using scikit-learn's Pipeline and FeatureUnion components, combining word-level and character-level features through TF-IDF vectorization. The implementation includes custom text preprocessing with URL and handle normalization, along with word clustering capabilities to handle out-of-vocabulary words. The model uses logistic regression with balanced class weights and achieves competitive performance on the validation set using balanced accuracy metrics.
+
+## Homework 8 - Node2Vec Implementation
+
+This notebook implements the Node2Vec algorithm for learning node embeddings in social networks, featuring parameter optimization for walk length, dimensions, and bias parameters to capture both structural and homophily relationships. The implementation includes optional node feature integration through feature concatenation and normalization, with evaluation using cosine similarity metrics on target node pairs. The code demonstrates efficient parallel processing through worker threads and handles missing features gracefully through zero padding.
