@@ -1,0 +1,52 @@
+{
+  "os":  "macOS-14.6-arm64-arm-64bit",
+  "python":  "CPython 3.10.16",
+  "startedAt":  "2025-03-03T18:11:34.362835Z",
+  "args":  [
+    "--max_epochs",
+    "5",
+    "--batch_size",
+    "32",
+    "--hidden_size",
+    "64",
+    "--dropout",
+    "0.5",
+    "--use_batch_norm",
+    "True"
+  ],
+  "program":  "/Users/mark/Documents/college/NLP/Homeworks/HW4/cli/train.py",
+  "codePath":  "cli/train.py",
+  "email":  "Markcallan101@gmail.com",
+  "root":  "/Users/mark/Documents/college/NLP/Homeworks/HW4",
+  "host":  "Marks-MacBook-Air.local",
+  "executable":  "/opt/anaconda3/envs/venv-hw3/bin/python",
+  "codePathLocal":  "cli/train.py",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "181778911232"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "245107195904",
+      "used":  "181778911232"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Apple M3",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  16,
+    "swapTotalBytes":  "21474836480",
+    "ramTotalBytes":  "17179869184"
+  }
+}

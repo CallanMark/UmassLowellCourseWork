@@ -1,0 +1,14 @@
+{"time":"2025-03-03T13:03:27.905346-05:00","level":"INFO","msg":"stream: starting","core version":"0.19.7","symlink path":"/Users/mark/Documents/college/NLP/Homeworks/HW4/wandb/offline-run-20250303_130327-301vain1/logs/debug-core.log"}
+{"time":"2025-03-03T13:03:28.319477-05:00","level":"INFO","msg":"created new stream","id":"301vain1"}
+{"time":"2025-03-03T13:03:28.31955-05:00","level":"INFO","msg":"stream: started","id":"301vain1"}
+{"time":"2025-03-03T13:03:28.319577-05:00","level":"INFO","msg":"handler: started","stream_id":"301vain1"}
+{"time":"2025-03-03T13:03:28.319653-05:00","level":"INFO","msg":"writer: Do: started","stream_id":"301vain1"}
+{"time":"2025-03-03T13:03:28.319664-05:00","level":"INFO","msg":"sender: started","stream_id":"301vain1"}
+{"time":"2025-03-03T13:03:28.325403-05:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-03-03T13:04:02.073042-05:00","level":"INFO","msg":"stream: closing","id":"301vain1"}
+{"time":"2025-03-03T13:04:02.073137-05:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-03-03T13:04:02.073847-05:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-03-03T13:04:02.073952-05:00","level":"INFO","msg":"handler: closed","stream_id":"301vain1"}
+{"time":"2025-03-03T13:04:02.073958-05:00","level":"INFO","msg":"writer: Close: closed","stream_id":"301vain1"}
+{"time":"2025-03-03T13:04:02.073999-05:00","level":"INFO","msg":"sender: closed","stream_id":"301vain1"}
+{"time":"2025-03-03T13:04:02.074188-05:00","level":"INFO","msg":"stream: closed","id":"301vain1"}

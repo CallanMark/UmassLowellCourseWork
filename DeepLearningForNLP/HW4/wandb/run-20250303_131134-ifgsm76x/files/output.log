@@ -1,0 +1,6 @@
+2025-03-03 13:11:34 | INFO | train.py | Using CPU for training
+2025-03-03 13:11:34 | INFO | train.py | Loading dataset
+Preprocessing Dataset: 100%|██████| 25000/25000 [00:08<00:00, 2981.33it/s]
+Preprocessing Dataset: 100%|██████| 25000/25000 [00:08<00:00, 2938.98it/s]
+2025-03-03 13:12:07 | INFO | train.py | Starting training
+Epochs: 100%|██████████████████████████████| 5/5 [25:56<00:00, 311.21s/it]

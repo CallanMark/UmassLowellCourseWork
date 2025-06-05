@@ -1,0 +1,24 @@
+2025-03-03 13:52:15 | INFO | train.py | Using CPU for training
+2025-03-03 13:52:15 | INFO | train.py | Loading dataset
+Preprocessing Dataset: 100%|█| 25000/25000 [00:07<00:00, 
+Preprocessing Dataset: 100%|█| 25000/25000 [00:07<00:00, 
+2025-03-03 13:52:47 | INFO | train.py | Starting training
+Epochs:  60%|███████▊     | 3/5 [14:42<09:45, 292.86s/it]--- Logging error ---
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/venv-hw3/lib/python3.10/logging/__init__.py", line 1100, in emit
+    msg = self.format(record)
+  File "/opt/anaconda3/envs/venv-hw3/lib/python3.10/logging/__init__.py", line 943, in format
+    return fmt.format(record)
+  File "/opt/anaconda3/envs/venv-hw3/lib/python3.10/logging/__init__.py", line 678, in format
+    record.message = record.getMessage()
+  File "/opt/anaconda3/envs/venv-hw3/lib/python3.10/logging/__init__.py", line 368, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "/Users/mark/Documents/college/NLP/Homeworks/HW4/cli/train.py", line 243, in <module>
+    main(args)
+  File "/Users/mark/Documents/college/NLP/Homeworks/HW4/cli/train.py", line 229, in main
+    logger.info("Training stopped early due to no improvement after " ,args.early_stopping ," epochs")
+Message: 'Training stopped early due to no improvement after '
+Arguments: (1, ' epochs')
+Epochs:  60%|███████▊     | 3/5 [19:55<13:16, 398.37s/it]
