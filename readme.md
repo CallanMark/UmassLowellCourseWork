@@ -71,5 +71,13 @@ Our key contributions include:
 The model achieved 86.0% accuracy and 86.1% F1-score on PolitiFact and 96.5% accuracy and 96.6% F1-score on GossipCop, outperforming the UPFD baseline by 1.35% accuracy and 1.45% F1-score on PolitiFact. Visualizations of attention mechanisms and outlier graphs provided insights into model behavior, highlighting the importance of structural features in distinguishing fake from real news.
 
 
+# Social Computing
+
+This repository contains my work for the Social Computing course taught by [Hadi Amiri](https://scholar.google.com/citations?user=fyUpZ5EAAAAJ&hl=en). 
+
+
+The course included both theoretical paper reviews and practical programming assignments. While some homeworks focused on mathematical proofs and paper analysis (not shown here), the programming assignments demonstrated hands-on implementation of key social computing concepts.
+
+I achieved an A in this course, which provided a strong foundation in analyzing social networks and implementing computational methods for social data analysis. The course culminated in a final project applying graph neural networks to fake news detection, combining multiple architectures to achieve SOTA comparable results.
 
 
