@@ -2,15 +2,15 @@
 
 ## Homework 1 - Linear Classifier for Text Classification
 
-This notebook implements a linear classifier for text classification using the IMDB dataset. It explores text vectorization techniques including CountVectorizer and TfidfVectorizer, and demonstrates handling of out-of-vocabulary words.
+This notebook implements a linear classifier for text classification using the IMDB dataset, exploring text vectorization techniques including CountVectorizer and TfidfVectorizer. The implementation demonstrates handling of out-of-vocabulary words and evaluates model performance using accuracy metrics. The code includes data preprocessing, feature extraction, and model training with cross-validation.
 
 ## Homework 2 - Word2Vec Implementation
 
-This notebook implements the Word2Vec model from scratch using PyTorch, demonstrating the Skip-gram architecture and efficient vector operations through matrix multiplication. The implementation includes optimizations for training speed and numerical stability, with evaluation of word similarities on a Star Wars text corpus.
+This notebook implements the Word2Vec model from scratch using PyTorch, demonstrating the Skip-gram architecture and efficient vector operations through matrix multiplication. The implementation includes optimizations for training speed and numerical stability, with evaluation of word similarities on a Star Wars text corpus. The model successfully learns meaningful word embeddings that capture semantic relationships between words in the corpus.
 
 ## Homework 3 - Neural Networks and SVM
 
-This notebook implements a two-layer neural network and SVM classifier for image classification on CIFAR-10, exploring different optimization techniques and hyperparameter tuning for improved model performance.
+This notebook implements a two-layer neural network and SVM classifier for image classification on CIFAR-10, exploring different optimization techniques and hyperparameter tuning for improved model performance. The implementation includes forward and backward propagation, loss computation, and gradient updates for both architectures. The models are evaluated using accuracy metrics and compared in terms of training time and classification performance.
 
 ## Homework 4 - Neural Network Text Classifier
 
