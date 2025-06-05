@@ -15,3 +15,7 @@ This notebook implements a two-layer neural network and SVM classifier for image
 ## Homework 4 - Neural Network Text Classifier
 
 This notebook implements a fully-connected neural network classifier for text classification using PyTorch. The implementation includes techniques like batch normalization, dropout, and L2 regularization, with a focus on proper project structure and model evaluation. The code demonstrates text preprocessing, model training with early stopping, and interactive inference capabilities.
+
+## Homework 5 - Transformer Language Model
+
+This notebook implements a transformer-based language model from scratch using PyTorch, starting with the implementation of multi-head self-attention mechanisms and building up to a complete transformer architecture. The implementation includes training on the Tiny Shakespeare dataset, demonstrating character-level language modeling with techniques like causal masking, positional encoding, and efficient batching. The code explores hyperparameter optimization through wandb integration, model evaluation using perplexity metrics, and text generation capabilities.

@@ -1,0 +1,8 @@
+2025-03-22 18:54:31,156 INFO    MainThread:82337 [wandb_init.py:setup_run_log_directory():647] Logging user logs to /Users/mark/Documents/college/NLP/Homeworks/HW4/HW5/wandb/run-20250322_185431-sv53pwap/logs/debug.log
+2025-03-22 18:54:31,156 INFO    MainThread:82337 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to /Users/mark/Documents/college/NLP/Homeworks/HW4/HW5/wandb/run-20250322_185431-sv53pwap/logs/debug-internal.log
+2025-03-22 18:54:31,156 INFO    MainThread:82337 [wandb_init.py:init():761] calling init triggers
+2025-03-22 18:54:31,156 INFO    MainThread:82337 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'batch_size': 3, 'max_len': 128, '_wandb': {}}
+2025-03-22 18:54:31,156 INFO    MainThread:82337 [wandb_init.py:init():776] wandb.init() called while a run is active
+2025-03-22 19:01:32,047 INFO    MainThread:82337 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-03-22 19:01:32,048 INFO    MainThread:82337 [wandb_init.py:_pause_backend():564] pausing backend
