@@ -23,3 +23,19 @@ This notebook implements a transformer-based language model from scratch using P
 ## Homework 6 - Transformer Machine Translation Model
 
 This notebook implements a transformer-based machine translation model from scratch using PyTorch, building upon the transformer architecture from HW5 to create an encoder-decoder model for English-German translation. The implementation includes training custom tokenizers, implementing cross-attention mechanisms, and handling sequence-to-sequence tasks with proper padding and masking. The model was trained on the WMT-14 English-German dataset using CS department GPU servers, with hyperparameter optimization through wandb integration and evaluation using BLEU scores.
+
+## Course Overview
+
+This repository contains my work for the Deep Learning for Natural Language Processing course taught by [Anna Rumshisky](https://scholar.google.com/citations?user=_Q1uzVYAAAAJ&hl=en). The course covered fundamental concepts in deep learning and NLP, including:
+
+- Distributional semantics and word embeddings (Word2Vec)
+- Neural network architectures (MLPs, CNNs, RNNs)
+- Attention mechanisms and Transformer models
+- Transfer learning and pre-training strategies
+- Parameter-efficient fine-tuning (PEFT)
+- Model alignment and RLHF
+- Long-context handling and position embeddings
+
+For the final project, I gave a 15-minute presentation on the paper "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes", which explored knowledge distillation techniques for creating more efficient language models.
+
+I achieved a B+ in this course, which provided a comprehensive foundation in modern NLP techniques and architectures. The course culminated in a final exam covering topics from word embeddings to advanced concepts like RLHF and model alignment among others.
