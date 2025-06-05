@@ -71,7 +71,7 @@ Our key contributions include:
 The model achieved 86.0% accuracy and 86.1% F1-score on PolitiFact and 96.5% accuracy and 96.6% F1-score on GossipCop, outperforming the UPFD baseline by 1.35% accuracy and 1.45% F1-score on PolitiFact. Visualizations of attention mechanisms and outlier graphs provided insights into model behavior, highlighting the importance of structural features in distinguishing fake from real news.
 
 
-# Social Computing
+# Course Overview
 
 This repository contains my work for the Social Computing course taught by [Hadi Amiri](https://scholar.google.com/citations?user=fyUpZ5EAAAAJ&hl=en). 
 
