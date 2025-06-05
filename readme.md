@@ -39,3 +39,7 @@ This repository contains my work for the Deep Learning for Natural Language Proc
 For the final project, I gave a 15-minute presentation on the paper "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes", which explored knowledge distillation techniques for creating more efficient language models.
 
 I achieved a B+ in this course, which provided a comprehensive foundation in modern NLP techniques and architectures. The course culminated in a final exam covering topics from word embeddings to advanced concepts like RLHF and model alignment among others.
+
+## Social Computing Homework 1 - Reddit Data Analysis
+
+This notebook implements a Reddit data collection and analysis system using the PRAW API, featuring a scraper that collects posts and comments based on user queries, and an analyzer that computes statistical metrics including mean scores, variance, and correlation between post and comment scores. The implementation includes data visualization using seaborn and matplotlib to plot score distributions and correlations, with additional functionality to identify top and bottom performing posts based on their scores.
