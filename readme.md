@@ -57,3 +57,19 @@ This notebook implements a multiclass text classifier using scikit-learn's Pipel
 ## Homework 8 - Node2Vec Implementation
 
 This notebook implements the Node2Vec algorithm for learning node embeddings in social networks, featuring parameter optimization for walk length, dimensions, and bias parameters to capture both structural and homophily relationships. The implementation includes optional node feature integration through feature concatenation and normalization, with evaluation using cosine similarity metrics on target node pairs. The code demonstrates efficient parallel processing through worker threads and handles missing features gracefully through zero padding.
+
+## Final Project - Graph-Based Fake News Detection Using GNNs
+
+This project implements an ensemble-based approach for fake news detection on social media using graph neural networks (GNNs). Working with two team members, we combined Graph Attention Networks (GAT), Heterogeneous Graph Attention Networks (HAN), and Relational Graph Convolutional Networks (RGCN) to leverage structural and relational patterns in news propagation graphs from the User Preference-aware Fake News Detection (UPFD) dataset.
+
+Our key contributions include:
+- An ensemble framework combining GAT, HAN, and RGCN architectures to jointly exploit attention over neighbors, heterogeneous node semantics, and relation-specific transformations
+- Implementation of four ensemble strategies: voting, averaging, concatenation, and transformation
+- Hyperparameter optimization using Optuna to find optimal model configurations for each dataset
+- Comprehensive analysis and visualizations of propagation patterns
+
+The model achieved 86.0% accuracy and 86.1% F1-score on PolitiFact and 96.5% accuracy and 96.6% F1-score on GossipCop, outperforming the UPFD baseline by 1.35% accuracy and 1.45% F1-score on PolitiFact. Visualizations of attention mechanisms and outlier graphs provided insights into model behavior, highlighting the importance of structural features in distinguishing fake from real news.
+
+
+
+
