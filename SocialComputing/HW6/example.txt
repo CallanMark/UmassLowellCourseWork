@@ -1,0 +1,9 @@
+Topic : RHLF
+
+Reinforcement from Human feedback learning uses a reward model and Reinforcement learning to allign the model
+ 
+ The three steps it follows are :
+ 1. Fine tune the model on high quality prompts 
+ 2. Introduce the reward model and update based on it , the loss function is as follows :
+ Loss(THETA) ~E(x, Yt ,Yw) ~E[Log(sigma)(r(theta)(X-yT) - r(theta)(X-yW))]
+ 3. I can't remeber what this step is 

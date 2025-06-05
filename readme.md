@@ -49,3 +49,7 @@ This notebook implements a Reddit data collection and analysis system using the 
 ## Homework 2 - Netowork analysis of academic paper citations
 
 This notebook implements a network analysis system using NetworkX to analyze academic paper citation networks, featuring weak and strong tie analysis through degree centrality calculations and visualization of network resilience. The implementation includes centrality analysis using degree, closeness, and betweenness metrics with Pearson correlation calculations, along with network visualization tools to demonstrate the impact of removing different types of ties on network structure.
+
+## Homework 6 - Multiclass Text Classification
+
+This notebook implements a multiclass text classifier using scikit-learn's Pipeline and FeatureUnion components, combining word-level and character-level features through TF-IDF vectorization. The implementation includes custom text preprocessing with URL and handle normalization, along with word clustering capabilities to handle out-of-vocabulary words. The model uses logistic regression with balanced class weights and achieves competitive performance on the validation set using balanced accuracy metrics.
